@@ -3,9 +3,7 @@
 # https://flask.palletsprojects.com/en/1.1.x/quickstart/
 
 from flask import Flask, render_template, request, session, redirect, url_for, jsonify, abort
-from flask_sqlalchemy import SQLAlchemy
 import os
-from pathlib import Path 
 
 app = Flask(__name__)
 app.secret_key = b'a;lksjdf;jaKJLVnawrAz'
