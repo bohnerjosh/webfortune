@@ -1,6 +1,7 @@
 # webfortune
 
 This is a repository for my Final Project for CMSC 190 DevOps course (Spring 2021)
+
 The core of this repository features a web application that serves users outputs of the `fortune` and `cowsay` commands in Linux.
 
 # Dependencies
