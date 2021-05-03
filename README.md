@@ -11,7 +11,7 @@ In case of use of testing, this assumes you have `pytest` installed, as well as 
 
 # Installation
 
-To run this application in a docker container, run `docker build -t <NAME>`, where `<NAME>` is the name of your docker image. This is your docker image.
+To run this application in a docker container, run `docker build -t <NAME> .`, where `<NAME>` is the name of your docker image. This is your docker image.
 
 To run the docker image in a container, run `docker run -dp <PORT>:5000 <NAME>`, where `<PORT>` is the port you want to run the application on, and where `<NAME>` is the name of your docker image.
 
