@@ -7,6 +7,7 @@ The core of this repository features a web application that serves users outputs
 # Dependencies
 
 This assumes you have `docker` installed.
+In case of use of testing, this assumes you have `pytest` installed, as well as `virtualenv` if you do not have flask and its dependencies installed locally.
 
 # Installation
 
@@ -28,4 +29,9 @@ In a web browser - go to `http://<IP>:<PORT>` to access the web application. `<I
 
 `/cowfortune/` - gives the user the result of the `fortune` command piped into the `cowsay` command.
 
+# Testing
+Make sure you have `flask` and its dependencies installed before testing yourself. 
 
+Otherwise, make sure `virtualenv` is installed. To install flask and its dependencies, make sure you are in a virtual environment, and run `pip install -r requirements.txt`.
+
+After making changes to appserver.py or adding tests yourself, you can test them with `pytest`. To do this, run `pytest <TEST_FILE>`, where `<TEST_FILE>` is the name of the python file that has the test code in it.
