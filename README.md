@@ -11,7 +11,7 @@ This assumes you have `docker` installed.
 
 To run this application in a docker container, run `docker build -t <NAME>`, where `<NAME>` is the name of your docker image. This is your docker image.
 
-To run the docker image in a container, run `docker run -dp <PORT>:5000 <NAME>` , where `<PORT>` is the port you want to run the application on, and where `<NAME>` is the name of your docker image.
+To run the docker image in a container, run `docker run -dp <PORT>:5000 <NAME>`, where `<PORT>` is the port you want to run the application on, and where `<NAME>` is the name of your docker image.
 
 When you are done with your application, don't forget to stop the container. You can check to see if your docker container is running by typing `docker ps`
 
