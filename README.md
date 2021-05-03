@@ -24,7 +24,7 @@ In a web browser - go to `http://<IP>:<PORT>` to access the web application. `<I
 
 `/` or `/fortune/` - gives the user the output of the `fortune` command.
 
-`/cowsay/<MESSAGE>' - gives the user the output of the `cowsay` command, where <MESSAGE> is the text you want to pass to `cowsay`.
+`/cowsay/<MESSAGE>` - gives the user the output of the `cowsay` command, where `<MESSAGE>` is the text you want to pass to `cowsay`.
 
 `/cowfortune/` - gives the user the result of the `fortune` command piped into the `cowsay` command.
 
