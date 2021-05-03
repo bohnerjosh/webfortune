@@ -20,7 +20,7 @@ After typing `docker ps`, look for the container ID associated with your docker 
 
 # Running
 
-In a web browser - go to `http://<IP>:<PORT>` to access the web application. The <IP> is the IP of the machine running the application, and `<PORT>` is the port from the `docker run` command before.
+In a web browser - go to `http://<IP>:<PORT>` to access the web application. `<IP>` is the IP of the machine running the application, and `<PORT>` is the port from the `docker run` command before.
 
 `/` or `/fortune/` - gives the user the output of the `fortune` command.
 
