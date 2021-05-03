@@ -3,11 +3,11 @@
 This is a repository for my Final Project for CMSC 190 DevOps course (Spring 2021)
 The core of this repository features a web application that serves users outputs of the `fortune` and `cowsay` commands in Linux.
 
-#Dependencies
+# Dependencies
 
 This assumes you have `docker` installed.
 
-#Installation
+# Installation
 
 To run this application in a docker container, run `docker build -t <NAME>`, where `<NAME>` is the name of your docker image. This is your docker image.
 
@@ -17,7 +17,7 @@ When you are done with your application, don't forget to stop the container. You
 
 After typing `docker ps`, look for the container ID associated with your docker container's `<NAME>` from before. Then, to stop your container, run `docker kill <ID>`, where `<ID>` is the container ID of your container.
 
-#Running
+# Running
 
 In a web browser - go to `http://<IP>:<PORT>` to access the web application. <IP> is the IP of the machine running the application, and `<PORT>` is the port from the `docker run` command before.
 
