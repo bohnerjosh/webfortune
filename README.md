@@ -15,7 +15,7 @@ To run this application in a docker container, run `docker build -t <NAME> .`, w
 
 To run the docker image in a container, run `docker run -dp <PORT>:5000 <NAME>`, where `<PORT>` is the port you want to run the application on, and where `<NAME>` is the name of your docker image.
 
-When you are done with your application, don't forget to stop the container. You can check to see if your docker container is running by typing `docker ps`
+When you are done with your application, don't forget to stop the container. You can check to see if your docker container is running by typing `docker ps`.
 
 After typing `docker ps`, look for the container ID associated with your docker container's `<NAME>` from before. Then, to stop your container, run `docker kill <ID>`, where `<ID>` is the container ID of your container.
 
