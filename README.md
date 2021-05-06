@@ -1,4 +1,4 @@
-![Testing has been passed!](https://github.com/bohnjos/webfortune/actions/workflows/main.yml/badge.svg)
+![Testing has been passed!](https://github.com/bohnerjosh/webfortune/actions/workflows/main.yml/badge.svg)
 
 # webfortune
 
